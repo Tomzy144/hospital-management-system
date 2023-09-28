@@ -1,0 +1,101 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+li{
+    list-style: none;
+
+}
+#cName{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1.5em 0;
+    transition: all 0.2s linear;
+}
+#cName:hover{
+    transform: scale(1.1);
+}
+#path{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: #11283f;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1.4rem;
+}
+#div-menu-button{
+    background-color: #11283f;
+    border: none !important;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.navbar-left{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: none;
+
+}
+.nav-menu{
+    background-color:  #11283f;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left : -100%;
+    transition:2s
+}
+.menu-bars{
+    margin-left: 2em;
+    font-size: 2rem;
+    background:none;
+}
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color: #11283f;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    
+}
+
+.nav-menu.active{
+    left: 0;
+    transition-duration: 1.5s;
+}
+
+.navbar-right{
+    justify-content: flex-start;
+    display: flex;
+    gap: 1.4rem;
+}
+.icons{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+span{
+    margin-left: 16px;
+}
